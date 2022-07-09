@@ -56,6 +56,45 @@ body {
     padding: 7px 30px;
 }
 
+.main-content {
+    background-color: #F9FAF8;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.main-content h2 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.main-content-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.main-content-info {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+}
+
+.main-content-info p {
+    margin-top: 5px;
+    padding: 0;
+}
+
+.blue-div-border {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 0.75rem;
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB;
