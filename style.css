@@ -157,3 +157,9 @@ a {
     font-weight: 700;
     padding: 10px 25px;
 }
+
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    padding: 25px;
+}
