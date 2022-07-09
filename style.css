@@ -13,16 +13,47 @@ body {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
+}
+
+.header-links,
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
 }
 
 .header-links {
     display: flex;
     list-style: none;
-    font-size: 18px;
-    color: #E5E7EB;
-    font-weight: 100;
     gap: 15px;
+}
+
+.hero-section {
+    display: flex;
+    padding: 100px 150px;
+    justify-content: space-between;
+}
+
+.hero-text h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text,
+.hero-img {
+    max-width: 500px;
+}
+
+.sign-up-button {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 0.50rem;
+    padding: 7px 30px;
 }
 
 a {
