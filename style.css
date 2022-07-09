@@ -1,6 +1,8 @@
 body {
     background-color: #1F2937;
     font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -59,7 +61,7 @@ body {
 .main-content {
     background-color: #F9FAF8;
     padding-top: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .main-content h2 {
@@ -72,7 +74,7 @@ body {
 
 .main-content-container {
     display: flex;
-    gap: 50px;
+    gap: 95px;
     justify-content: center;
 }
 
@@ -93,6 +95,27 @@ body {
     width: 150px;
     border: 4px solid #3882F6;
     border-radius: 0.75rem;
+}
+
+.testimonials {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 100px 300px;
+}
+
+.testimonials p {
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials span {
+    float: right;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
 }
 
 a {
