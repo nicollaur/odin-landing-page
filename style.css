@@ -31,6 +31,11 @@ body {
     gap: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .hero-section {
     display: flex;
     padding: 100px 150px;
@@ -118,7 +123,37 @@ body {
     font-style: normal;
 }
 
-a {
-    text-decoration: none;
-    color: #E5E7EB;
+.call-to-action-container {
+    background-color: #F9FAF8;
+    padding: 100px 250px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+    border-radius: 0.5rem;
+}
+
+.call-to-action h3,
+.call-to-action p {
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+}
+
+.call-to-action p {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.call-to-action-button {
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    padding: 10px 25px;
 }
